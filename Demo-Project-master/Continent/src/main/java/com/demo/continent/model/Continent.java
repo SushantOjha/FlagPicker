@@ -35,6 +35,12 @@ public class Continent {
 			
 	}
 
+	public Continent(int continent_id, String continent) {
+		super();
+		this.continent_id = continent_id;
+		this.continent = continent;
+	}
+	
 	public String getContinent() {
 		return continent;
 	}

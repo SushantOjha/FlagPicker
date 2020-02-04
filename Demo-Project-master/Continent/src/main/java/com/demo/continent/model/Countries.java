@@ -32,6 +32,14 @@ public class Countries {
    @JsonIgnore
    private Continent continent;
 
+   
+	public Countries(int country_id, String name, String flag) {
+	super();
+	this.country_id = country_id;
+	this.name = name;
+	this.flag = flag;
+}
+
 	public String getName() {
 		return name;
 	}
